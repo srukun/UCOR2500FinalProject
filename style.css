@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    background-color: #F1EFEE;
+}
+/*Navagtion*/
+.navagation-container{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.class-logo{
+    width: 25vw;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}
+.class-logo p{
+    margin-left: 2.5vw;
+    user-select: none;
+}
+.class-logo p:hover{
+    cursor: default;
+}
+.navagation-list-container{
+    width: 75vw;
+}
+.navagation-container ul {
+    margin-left: 7.5vw;
+    list-style-type: none;
+    font-size: 15px;
+    padding: 0;
+  }
+  
+  .navagation-container ul li {
+    display: inline-block; /* or display: block; */
+    margin: 5px;
+    height: 30px; /* Adjust the height as needed */
+    width: 125px; /* Adjust the width as needed */
+  }
+  
+  .navagation-container ul li a {
+    display: block;
+    text-decoration: none;
+    background: #FBFBFB;
+    border-radius: 25px;
+    height: 100%; 
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+  }
+  .navagation-container ul li a:hover{
+    background-color: #F07158;
+    color: #FBFBFB;
+  }
+
+/*Body*/
+.body-container{
+    width: 100vw;
+    height: 90vh;
+}
+
+/*Body*/
+.body-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.body-card{
+    border-radius: 2.5%;
+    background-color: #FBFBFB;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-card{
+    width: 30vw;
+    height: 50vh;
+    background-image: url(./Assets/LookAWhite.jpg);
+    background-size: contain;
+    border-radius: 25%;
+}
+.description-card{
+    width: 45vw;
+    height: 50vh;
+    margin-left: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.description-card ul{
+
+}
