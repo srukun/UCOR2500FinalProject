@@ -69,65 +69,78 @@
 /*Body*/
 .body-container{
     width: 100vw;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
-.project-info{
-    height: 25%;
+.book-card{
+    height: 75%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    text-align: center;
-}
-.proposal-info{
-    width: 45%;
-    height: 50%;
-}
-.team-info{
-    height: 20%;
+    align-items: center;
 }
 
-.project-info h1{
+.image-card{
+    width: 15vw;
+    height: 40vh;
+    background-image: url(./Assets/LookAWhite.jpg);
+    background-size: contain;
+}
+.description-card{
+    width: 45vw;
+    height: 50vh;
+    margin-left: 7.5vw;
+    display: flex;
+    flex-direction: column;
+}
+.description-card ul{
+    margin-top: 5%;
+
+}
+
+
+.desc-card-title, .desc-card-author{
     color: #F5CF1E;
-    padding-bottom: 5%;
-    font-size: 300%;
 }
-.project-info p{
-    padding-top: 1.5%;
+
+
+.desc-text{
+    margin-top: 5%;
+    line-height: 3vh;
 }
-.proposal-info button{
-    margin-top: 5% ;
-    width: 25%;
-    height: 15%;
+
+.desc-card-section-two, .desc-card-section-three{
+    font-size: 1.75vh;
+}
+
+
+/*Card Navagation*/
+.card-navagation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+}
+
+.card-navagation button{
+    width: 10%;
+    height: 35%;
     border-style: none;
     background-color: #F5CF1E;
     color: #000000;
     border-radius: 10px;
     user-select: none;
     font-weight: bold;
+    margin: 1%;
 }
-.proposal-info button:hover{
+.card-navagation button:hover{
     cursor: pointer;
     color: #F5CF1E;
     background-color: #000000;
 
-}
-.team-info, .proposal-info{
-    padding-top: 10vh;
-}
-.team-info ul{
-    list-style-type: none;
-    font-size: 1.75vh;
-    padding: 0;
-    user-select: none;
-}
-.team-info ul li{
-    display: inline-block; /* or display: block; */
-    height: 30px; /* Adjust the height as needed */
-    width: auto; /* Adjust the width as needed */
-    margin: 2vh;
 }
