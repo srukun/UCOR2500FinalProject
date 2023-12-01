@@ -7,6 +7,8 @@
     font-family: 'Poppins', sans-serif;
     color: #000;
     background-color: #FAF9F8;
+    
+    overflow-x: hidden;
 }
 /*Navagtion*/
 .navagation-container{
@@ -75,20 +77,25 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
+
 .project-info{
-    height: 25%;
+    height: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 .proposal-info{
-    width: 45%;
+    width: 100%;
     height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .team-info{
-    height: 20%;
+    height: 15%;
 }
 
 .project-info h1{
@@ -96,13 +103,35 @@
     padding-bottom: 5%;
     font-size: 300%;
 }
-.project-info p{
-    padding-top: 1.5%;
+.proposal-info-img{
+    width: 30%;
+    height: 75%;
+    background-image: url(./Assets/P1.png);
+    box-shadow: 25px -25px #F5CF1E;
+    
 }
-.proposal-info button{
+.proposal-info-text{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.proposal-info-text p{
+    width: 60%;
+    text-align: justify;
+    line-height: 3vh;
+}
+.proposal-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.proposal-info-text button{
     margin-top: 5% ;
-    width: 25%;
-    height: 15%;
+    width: 15vw;
+    height: 5vh;
     border-style: none;
     background-color: #F5CF1E;
     color: #000000;
@@ -116,7 +145,7 @@
     background-color: #000000;
 
 }
-.team-info, .proposal-info{
+.team-info{
     padding-top: 10vh;
 }
 .team-info ul{
@@ -130,4 +159,104 @@
     height: 30px; /* Adjust the height as needed */
     width: auto; /* Adjust the width as needed */
     margin: 2vh;
+}
+
+/* Major */
+.body-container-major{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+
+}
+.major-img-1{
+    width: 30%;
+    height: 45%;
+    background-image: url(./Assets/SUCS2.jpg);
+    background-size: contain;
+    
+    box-shadow: 25px -25px #F5CF1E;
+
+}
+.major-img-2{
+    width: 30%;
+    height: 45%;
+    background-image: url(./Assets/SUAlbers.jpg);
+    background-size: contain;
+    
+    box-shadow: 25px -25px #F5CF1E;
+
+}
+.major-img-3{
+    width: 30%;
+    height: 45%;
+    background-image: url(./Assets/SUCS.jpg);
+    background-size: contain;
+    
+    box-shadow: 25px -25px #F5CF1E;
+
+}
+.major-img-4{
+    width: 30%;
+    height: 45%;
+    background-image: url(./Assets/SUArt.png);
+    background-size: contain;
+    
+    box-shadow: 25px -25px #F5CF1E;
+
+}
+.major-img-5{
+    width: 30%;
+    height: 45%;
+    background-image: url(./Assets/OldMan2.png);
+    background-size: contain;
+    
+    box-shadow: 25px -25px #F5CF1E;
+
+}
+.major-img-6{
+    width: 30%;
+    height: 45%;
+    background-image: url(./Assets/OldMan1.png);
+    background-size: contain;
+    
+    box-shadow: 25px -25px #F5CF1E;
+
+}
+.major-img-7{
+    width: 30%;
+    height: 45%;
+    background-image: url(./Assets/OldMan3.png);
+    background-size: contain;
+    
+    box-shadow: 25px -25px #F5CF1E;
+
+}
+.major-img-8{
+    width: 30%;
+    height: 45%;
+    background-image: url(./Assets/OldMan4.png);
+    background-size: contain;
+    
+    box-shadow: 25px -25px #F5CF1E;
+
+}
+.major-text{
+    width: 50%;
+}
+.major-text p{
+
+    width: 90%;
+    text-align: justify;
+    line-height: 3vh;
+    
+}
+.major-text h1, .major-text h3{
+    
+    width: 50%;
+    text-align: left;
+    color: #F5CF1E;
 }

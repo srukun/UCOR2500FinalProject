@@ -110,13 +110,17 @@
 .desc-text{
     margin-top: 5%;
     line-height: 3vh;
+    
+    
 }
 
 .desc-card-section-two, .desc-card-section-three{
     font-size: 1.75vh;
 }
 
-
+.desc-card-section-two{
+    overflow-y: scroll;
+}
 /*Card Navagation*/
 .card-navagation{
     display: flex;
