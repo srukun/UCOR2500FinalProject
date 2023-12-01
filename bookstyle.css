@@ -86,7 +86,7 @@
 .image-card{
     width: 15vw;
     height: 40vh;
-    background-image: url(./Assets/LookAWhite.jpg);
+    background-image: url(./LookAWhite.jpg);
     background-size: contain;
 }
 .description-card{
