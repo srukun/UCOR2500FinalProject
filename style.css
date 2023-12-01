@@ -106,7 +106,7 @@
 .proposal-info-img{
     width: 30%;
     height: 75%;
-    background-image: url(./P1.png);
+    background-image: url(./Assets/P1.png);
     box-shadow: 25px -25px #F5CF1E;
     
 }
@@ -175,7 +175,7 @@
 .major-img-1{
     width: 30%;
     height: 45%;
-    background-image: url(./SUCS2.jpg);
+    background-image: url(./Assets/SUCS2.jpg);
     background-size: contain;
     
     box-shadow: 25px -25px #F5CF1E;
@@ -184,7 +184,7 @@
 .major-img-2{
     width: 30%;
     height: 45%;
-    background-image: url(./SUAlbers.jpg);
+    background-image: url(./Assets/SUAlbers.jpg);
     background-size: contain;
     
     box-shadow: 25px -25px #F5CF1E;
@@ -193,7 +193,7 @@
 .major-img-3{
     width: 30%;
     height: 45%;
-    background-image: url(./SUCS.jpg);
+    background-image: url(./Assets/SUCS.jpg);
     background-size: contain;
     
     box-shadow: 25px -25px #F5CF1E;
@@ -202,7 +202,7 @@
 .major-img-4{
     width: 30%;
     height: 45%;
-    background-image: url(./SUArt.png);
+    background-image: url(./Assets/SUArt.png);
     background-size: contain;
     
     box-shadow: 25px -25px #F5CF1E;
@@ -211,7 +211,7 @@
 .major-img-5{
     width: 30%;
     height: 45%;
-    background-image: url(./OldMan2.png);
+    background-image: url(./Assets/OldMan2.png);
     background-size: contain;
     
     box-shadow: 25px -25px #F5CF1E;
@@ -220,7 +220,7 @@
 .major-img-6{
     width: 30%;
     height: 45%;
-    background-image: url(./OldMan1.png);
+    background-image: url(./Assets/OldMan1.png);
     background-size: contain;
     
     box-shadow: 25px -25px #F5CF1E;
@@ -229,7 +229,7 @@
 .major-img-7{
     width: 30%;
     height: 45%;
-    background-image: url(./OldMan3.png);
+    background-image: url(./Assets/OldMan3.png);
     background-size: contain;
     
     box-shadow: 25px -25px #F5CF1E;
@@ -238,7 +238,7 @@
 .major-img-8{
     width: 30%;
     height: 45%;
-    background-image: url(./OldMan4.png);
+    background-image: url(./Assets/OldMan4.png);
     background-size: contain;
     
     box-shadow: 25px -25px #F5CF1E;
